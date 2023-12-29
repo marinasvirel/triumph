@@ -1,0 +1,83 @@
+:root {
+  --hover: #f55d2e;
+  --background: #181715;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+}
+
+body {
+  background-color: var(--background);
+  color: white;
+}
+
+.container {
+  max-width: 1380px;
+  padding: 0 30px 0 30px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 100%;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  padding: 11px 39px 11px 39px;
+  background-color: white;
+  box-shadow: 0px 4px 20px 0px rgba(255, 255, 255, 0.50);
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  transition: .5s linear;
+}
+
+button:hover {
+  background-color: var(--hover);
+  box-shadow: 0px 4px 20px 0px rgba(251, 175, 54, 0.6);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .3s linear;
+}
+
+a:hover {
+  color: var(--hover);
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+p {
+  line-height: 170%;
+}
